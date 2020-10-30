@@ -2,7 +2,7 @@
 
 namespace KLT
 {
-System::System(const String &strSettingFile, bool visualizer)
+System::System(const std::string &strSettingFile, bool visualier)
 {
 
     cv::FileStorage fsSettings(strSettingFile.c_str(), cv::FileStorage::READ);
